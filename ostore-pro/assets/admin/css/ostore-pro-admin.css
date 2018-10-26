@@ -1,0 +1,23 @@
+.multiplecategory{
+    height: 200px;
+    overflow: scroll;
+}
+
+.widget-main-group-heading{
+    font-size: 15px;  
+    font-weight: bold;  
+    padding-top: 12px;
+}
+
+.bg-img-container img,
+.team-thumb img{
+	width:100% !important;
+}
+
+#widget-list [id*='_tab_widget_'] h3,
+#widget-list [id*='_testimonials_widget_'] h3,
+ #widget-list [id*='_blog_widget_'] .widget-top, #widget-list [id*='_blog_widget_'] h3,
+ #widget-list [id*='_ostore_pro_'] .widget-top, #widget-list [id*='_ostore_pro_'] h3 {
+    background: #0a0a0a;
+    color: #fff;
+}    

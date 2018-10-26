@@ -1,0 +1,127 @@
+.ostore-pro-repeater-field-control{
+background: #FFF;
+margin-bottom: 12px;
+display: block;
+}
+.ostore-pro-repeater-footer{
+margin-top: 15px;
+text-align: right;
+}
+.ostore-pro-repeater-field-control:first-child .ostore-pro-repeater-footer{
+display: none;
+}
+.ostore-pro-repeater-field-title{
+padding: 13px 15px;
+line-height: 1;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+margin: 0;
+font-size: 1em;
+border: 1px solid #e5e5e5;
+cursor: move;
+position: relative;
+border-bottom: 0;
+}
+#customize-theme-controls .ostore-pro-repeater-field-title.accordion-section-title:after {
+content: "\f142";
+font: 400 20px/1 dashicons;
+position: absolute;
+right: 0;
+top: 0;
+padding: 1px 2px 1px 0;
+margin-top: 10px;
+margin-right: 10px;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+cursor: pointer;
+}
+.ostore-pro-repeater-field-control.expanded .ostore-pro-repeater-field-title:after{
+content: "\f140";
+}
+.ostore-pro-repeater-fields{
+padding: 0 10px 25px;
+border-top: none;
+line-height: 16px;
+border: 1px solid #e5e5e5;
+box-shadow: 0 1px 1px rgba(0,0,0,.04);
+display: none;
+}
+.ostore-pro-repeater-fields .customize-control-title{
+margin-top: 10px;
+}
+.ostore-pro-repeater-field-control.expanded .ostore-pro-repeater-fields{
+display: block;
+}
+.ostore-pro-add-control-field {
+float: right;
+}
+.ostore-pro-add-control-field:before {
+    content: "\f132";
+    display: inline-block;
+    position: relative;
+    left: -2px;
+    top: -1px;
+    font: 400 18px/1 dashicons;
+    vertical-align: middle;
+}
+.ostore-pro-fields textarea{
+width: 100%;
+min-height: 100px;
+}
+.ostore-pro-fields select{
+width: 100%;
+min-width: none;
+}
+.ostore-pro-type-checkbox{
+margin-top: 10px;
+}
+.ostore-pro-type-checkbox label{
+    line-height: 20px;
+    display: block;
+    margin-left: 24px;
+    padding-top: 6px;
+}
+.ostore-pro-type-checkbox input[type=checkbox]{
+    margin-right: 8px;
+    margin-left: -24px;
+}
+.ostore-pro-type-selector .selector-labels{
+margin: 0 -5px;
+}
+.ostore-pro-type-selector .selector-labels label{
+display: inline-block;
+padding: 10px 5px 0;
+position: relative;
+max-width: 50%;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.ostore-pro-type-selector .selector-labels label img{
+vertical-align: middle;
+}
+.ostore-pro-type-selector .selector-labels label.selector-selected:after{
+content: "";
+height: 35px;
+width: 35px;
+right: 0;
+top: 0;
+position: absolute;
+background: url(images/selected.png) no-repeat right top;
+}
+.ostore-pro-type-radio .radio-labels label{
+display: block;
+padding: 5px 0;
+}
+
+
+
+.screenshot img {
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px 0px;
+}
+.remove-image {
+    cursor: pointer;
+}

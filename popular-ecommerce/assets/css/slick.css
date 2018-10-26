@@ -1,0 +1,296 @@
+
+/* !Quick view and single product */
+
+/* Single Product */
+.stock.in-stock i {
+	width: 15px;
+	height: 15px;
+	background-color: #70bc5b;
+	color: #fff;
+	margin-right: 10px;
+	line-height: 15px;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 9px;
+	vertical-align: text-top;
+}
+.woocommerce div.product .stock.in-stock {
+	color: inherit;
+}
+.woocommerce div.product div[itemprop="offers"] {
+	margin-right: 50px;
+}
+.woocommerce div.product div[itemprop="offers"],
+.woocommerce div.product .stock {
+	display: inline-block;
+}
+.woocommerce div.product div.images .flex-control-thumbs {
+	margin: 30px -30px -30px 0;
+}
+.woocommerce div.product div.images .flex-control-thumbs li:before {
+	display: none;
+}
+.woocommerce div.product div.images .flex-control-thumbs li {
+	padding: 0 30px 30px 0;
+	box-sizing: border-box;
+}
+.woocommerce-product-gallery__wrapper:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.gt3_thumb_vertical:after,
+.gt3-single-product-sticky:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.gt3_thumb_vertical .woocommerce-product-gallery__wrapper {
+	width: calc(100% - 130px);
+	float: right;
+}
+#yith-quick-view-content .gt3_thumb_vertical .woocommerce-product-gallery__wrapper {
+	float: none;
+	width: 100%;
+}
+.woocommerce #yith-quick-view-content div.product div.images.gt3_thumb_grid .woocommerce-product-gallery__image {
+	padding: 0;
+}
+.woocommerce #yith-quick-view-content div.product div.images.gt3_thumb_grid .woocommerce-product-gallery__wrapper {
+	margin: 0;
+}
+.woocommerce #yith-quick-view-content .onsale.slick-slide {
+	display: none;
+}
+
+.woocommerce div.product div.images.gt3_thumb_vertical .flex-control-thumbs {
+	width: 100px;
+	margin: 0 30px 0 0;
+	float: left;
+}
+.woocommerce div.product div.images.gt3_thumb_vertical .flex-control-thumbs li {
+	width: 100%;
+	padding: 0 0 30px 0;
+	float: none;
+}
+.woocommerce div.product form.cart {
+	max-width: 470px;
+}
+#yith-quick-view-content .slick-prev,
+#yith-quick-view-content .slick-next{
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	margin-top: -15px;
+	opacity: 0.2;
+	text-align: center;
+	text-indent: 0;
+}
+#yith-quick-view-content .relic-fashion-store-thumb-control-item {
+	overflow: hidden;
+}
+#yith-quick-view-content .relic-fashion-store-thumb-control-item .slick-list {
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+#yith-quick-view-content .relic-fashion-store-thumb-control-item .slick-current img {
+	border: 1px solid #e2e3dc;
+	opacity: 1;
+}
+#yith-quick-view-content .relic-fashion-store-thumb-control-item img:hover {
+	opacity: 1;
+}
+#yith-quick-view-content .relic-fashion-store-thumb-control-item img {
+	width: calc(100% - 30px);
+	margin: 15px;
+	box-sizing: border-box;
+	opacity: 1;
+}
+#yith-quick-view-content .relic-fashion-store-thumb-control-item {
+	margin-top: 30px;
+}
+#yith-quick-view-content .gt3-thumb-control-item {
+	height: auto;
+	padding: 0 !important;
+}
+#yith-quick-view-content .relic-fashion-store-thumb-control-item .slick-prev {
+	left: 0;
+}
+#yith-quick-view-content .relic-fashion-store-thumb-control-item .slick-slide {
+	height: auto;
+	padding-bottom: 30px;
+}
+#yith-quick-view-content .relic-fashion-store-thumb-control-item .slick-next {
+	right: 0;
+}
+#yith-quick-view-content .relic-fashion-store-thumb-control-item .slick-prev:hover,
+#yith-quick-view-content .relic-fashion-store-thumb-control-item .slick-next:hover {
+	opacity: 0.6;
+}
+#yith-quick-view-content .relic-fashion-store-thumb-control-item .slick-prev:before,
+#yith-quick-view-content .relic-fashion-store-thumb-control-item .slick-next:before{
+	font-size: 20px;
+	line-height: 30px;
+	color: #fff;
+}
+.woocommerce #review_form #respond textarea,
+.woocommerce #review_form #respond input {
+	width: 100%;
+}
+.woocommerce #review_form #respond input.submit {
+	width: auto;
+}
+
+/* Pupup zoom section */
+.easyzoom {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.easyzoom-flyout {
+    position: absolute;
+    z-index: 100;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .7s ease;
+}
+.woocommerce .easyzoom-flyout:hover {
+    opacity: 1;
+}
+.woocommerce .easyzoom-flyout img {
+	width: auto !important;
+	max-width: none;
+	height: auto !important;
+	max-height: none;
+}
+
+.thumbnails .slick-slide {
+	margin: 0 !important;
+	clear: none !important;
+}
+.easyzoom-notice {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+/* Slick Slider */
+.slick-slider {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+	touch-action: pan-y;
+	-webkit-tap-highlight-color: transparent;
+}
+.slick-list {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	outline: none !important;
+}
+.slick-list:focus {
+	outline: none !important;
+}
+.slick-list.dragging {
+	cursor: pointer;
+	cursor: hand;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.slick-track {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+}
+.slick-track:before,
+.slick-track:after {
+	display: table;
+	content: '';
+}
+.slick-track:after {
+	clear: both;
+}
+.slick-loading .slick-track {
+	visibility: hidden;
+}
+.slick-slide {
+	display: none;
+	float: left;
+	height: 100%;
+	min-height: 1px;
+	outline: none !important;
+	cursor: pointer;
+}
+[dir='rtl'] .slick-slide {
+	float: right;
+}
+.slick-slide img {
+	display: block;
+}
+.slick-slide.slick-loading img {
+	display: none;
+}
+.slick-slide.dragging img {
+	pointer-events: none;
+}
+.slick-initialized .slick-slide {
+	display: block;
+}
+.slick-loading .slick-slide {
+	visibility: hidden;
+}
+
+/* Arrows */
+.slick-prev,
+.slick-next {
+	position:absolute;
+	top:50%;
+	z-index:50;
+	text-indent:-9999px;
+	width: 27px;
+	height: 13px;
+	margin-top:-6px;
+	display:block;
+	font-size:0;
+	line-height:0;
+	cursor:pointer;
+	transition: opacity 300ms;
+	-webkit-transition: opacity 300ms;
+	outline: none;
+	border: none !important;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 300px 150px;
+	background-color: transparent;
+}
+
+.slick-prev {
+	left: -70px;
+}
+.slick-next {
+	right: -70px;
+	background-position: -27px 0;
+}
+.slick-prev:hover,
+.slick-next:hover {
+	opacity:0.8;
+}
